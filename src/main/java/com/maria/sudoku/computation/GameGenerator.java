@@ -1,14 +1,12 @@
-package com.wissassblog.sudoku.computationlogic;
+package com.maria.sudoku.computationlogic;
 
-import com.wissassblog.sudoku.constants.GameState;
-import com.wissassblog.sudoku.problemdomain.Coordinates;
-import com.wissassblog.sudoku.problemdomain.SudokuGame;
+import com.maria.sudoku.problemdomain.Coordinates;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import static com.wissassblog.sudoku.problemdomain.SudokuGame.GRID_BOUNDARY;
+import static com.maria.sudoku.problemdomain.SudokuGame.GRID_BOUNDARY;
 
 
 class GameGenerator {

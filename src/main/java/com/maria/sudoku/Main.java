@@ -1,4 +1,4 @@
-package com.wissassblog.sudoku;
+package com.maria.sudoku;
 
 
 public class Main {

@@ -1,12 +1,12 @@
-package com.wissassblog.sudoku.buildlogic;
+package com.maria.sudoku.buildlogic;
 
-import com.sun.javafx.iio.ios.IosDescriptor;
-import com.wissassblog.sudoku.computationlogic.GameLogic;
-import com.wissassblog.sudoku.persistence.LocalStorageImpl;
-import com.wissassblog.sudoku.problemdomain.IStorage;
-import com.wissassblog.sudoku.problemdomain.SudokuGame;
-import com.wissassblog.sudoku.userinterface.IUserInterfaceContract;
-import com.wissassblog.sudoku.userinterface.logic.ControlLogic;
+//import com.sun.javafx.iio.ios.IosDescriptor;
+import com.maria.sudoku.computationlogic.GameLogic;
+import com.maria.sudoku.problemdomain.SudokuGame;
+import com.maria.sudoku.userinterface.logic.ControlLogic;
+import com.maria.sudoku.persistence.LocalStorageImpl;
+import com.maria.sudoku.problemdomain.IStorage;
+import com.maria.sudoku.userinterface.IUserInterfaceContract;
 
 import java.io.IOException;
 

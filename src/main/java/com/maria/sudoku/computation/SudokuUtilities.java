@@ -1,6 +1,6 @@
-package com.wissassblog.sudoku.computationlogic;
+package com.maria.sudoku.computationlogic;
 
-import com.wissassblog.sudoku.problemdomain.SudokuGame;
+import com.maria.sudoku.problemdomain.SudokuGame;
 
 public class SudokuUtilities {
 

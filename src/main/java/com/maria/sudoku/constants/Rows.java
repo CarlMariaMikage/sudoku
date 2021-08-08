@@ -1,4 +1,4 @@
-package com.wissassblog.sudoku.constants;
+package com.maria.sudoku.constants;
 
 /**
  * This enum exists to provide better legibility for the logic required to check if each Square in the

@@ -1,14 +1,14 @@
-package com.wissassblog.sudoku.computationlogic;
+package com.maria.sudoku.computationlogic;
 
 //Collection of static functions which may be used to determine events and new Game states.
 
-import com.wissassblog.sudoku.constants.GameState;
-import com.wissassblog.sudoku.constants.Rows;
-import com.wissassblog.sudoku.problemdomain.SudokuGame;
+import com.maria.sudoku.constants.GameState;
+import com.maria.sudoku.constants.Rows;
+import com.maria.sudoku.problemdomain.SudokuGame;
 
 import java.util.*;
 
-import static com.wissassblog.sudoku.problemdomain.SudokuGame.GRID_BOUNDARY;
+import static com.maria.sudoku.problemdomain.SudokuGame.GRID_BOUNDARY;
 
 /**
  * Q: Why isn't this a class hidden behind an interface?

@@ -1,5 +1,5 @@
-import com.wissassblog.sudoku.computationlogic.GameLogic;
-import com.wissassblog.sudoku.constants.GameState;
+import com.maria.sudoku.computationlogic.GameLogic;
+import com.maria.sudoku.constants.GameState;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;

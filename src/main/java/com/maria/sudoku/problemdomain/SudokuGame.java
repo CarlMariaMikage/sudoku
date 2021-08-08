@@ -1,7 +1,7 @@
-package com.wissassblog.sudoku.problemdomain;
+package com.maria.sudoku.problemdomain;
 
-import com.wissassblog.sudoku.computationlogic.SudokuUtilities;
-import com.wissassblog.sudoku.constants.GameState;
+import com.maria.sudoku.computationlogic.SudokuUtilities;
+import com.maria.sudoku.constants.GameState;
 
 import java.io.Serializable;
 

@@ -1,6 +1,6 @@
-package com.wissassblog.sudoku.userinterface;
+package com.maria.sudoku.userinterface;
 
-import com.wissassblog.sudoku.problemdomain.SudokuGame;
+import com.maria.sudoku.problemdomain.SudokuGame;
 
 /**
  * Contract is really just another word for interface, which is another word for a Protocol.

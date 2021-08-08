@@ -1,4 +1,4 @@
-package com.wissassblog.sudoku.constants;
+package com.maria.sudoku.constants;
 
 public enum GameState {
     COMPLETE,

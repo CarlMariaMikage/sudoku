@@ -1,12 +1,12 @@
-package com.wissassblog.sudoku.userinterface.logic;
+package com.maria.sudoku.userinterface.logic;
 
 
-import com.wissassblog.sudoku.constants.GameState;
-import com.wissassblog.sudoku.constants.Messages;
-import com.wissassblog.sudoku.computationlogic.GameLogic;
-import com.wissassblog.sudoku.problemdomain.IStorage;
-import com.wissassblog.sudoku.problemdomain.SudokuGame;
-import com.wissassblog.sudoku.userinterface.IUserInterfaceContract;
+import com.maria.sudoku.constants.GameState;
+import com.maria.sudoku.constants.Messages;
+import com.maria.sudoku.computationlogic.GameLogic;
+import com.maria.sudoku.problemdomain.IStorage;
+import com.maria.sudoku.problemdomain.SudokuGame;
+import com.maria.sudoku.userinterface.IUserInterfaceContract;
 
 import java.io.IOException;
 

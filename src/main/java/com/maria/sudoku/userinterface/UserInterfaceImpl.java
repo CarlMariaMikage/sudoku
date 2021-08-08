@@ -1,8 +1,8 @@
-package com.wissassblog.sudoku.userinterface;
+package com.maria.sudoku.userinterface;
 
-import com.wissassblog.sudoku.constants.GameState;
-import com.wissassblog.sudoku.problemdomain.Coordinates;
-import com.wissassblog.sudoku.problemdomain.SudokuGame;
+import com.maria.sudoku.constants.GameState;
+import com.maria.sudoku.problemdomain.Coordinates;
+import com.maria.sudoku.problemdomain.SudokuGame;
 import javafx.event.EventHandler;
 import javafx.geometry.Pos;
 import javafx.scene.Group;
@@ -46,8 +46,8 @@ public class UserInterfaceImpl implements IUserInterfaceContract.View,
     private static final double BOARD_PADDING = 50;
 
     private static final double BOARD_X_AND_Y = 576;
-    private static final Color WINDOW_BACKGROUND_COLOR = Color.rgb(0, 150, 136);
-    private static final Color BOARD_BACKGROUND_COLOR = Color.rgb(224, 242, 241);
+    private static final Color WINDOW_BACKGROUND_COLOR = Color.rgb(25, 29, 34);
+    private static final Color BOARD_BACKGROUND_COLOR = Color.rgb(218, 165, 32);
     private static final String SUDOKU = "Sudoku";
 
     /**
@@ -195,7 +195,7 @@ public class UserInterfaceImpl implements IUserInterfaceContract.View,
         line.setHeight(height);
         line.setWidth(width);
 
-        line.setFill(Color.BLACK);
+        line.setFill(Color.BLANCHEDALMOND);
         return line;
 
     }
@@ -226,7 +226,7 @@ public class UserInterfaceImpl implements IUserInterfaceContract.View,
 
     private void drawTitle(Group root) {
         Text title = new Text(235, 690, SUDOKU);
-        title.setFill(Color.WHITE);
+        title.setFill(Color.GOLDENROD);
         Font titleFont = new Font(43);
         title.setFont(titleFont);
         root.getChildren().add(title);

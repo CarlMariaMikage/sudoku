@@ -1,13 +1,9 @@
-package com.wissassblog.sudoku.persistence;
+package com.maria.sudoku.persistence;
 
-import com.wissassblog.sudoku.problemdomain.SudokuGame;
-import com.wissassblog.sudoku.problemdomain.IStorage;
+import com.maria.sudoku.problemdomain.IStorage;
+import com.maria.sudoku.problemdomain.SudokuGame;
 
 import java.io.*;
-import java.nio.charset.Charset;
-import java.nio.file.Files;
-import java.util.Arrays;
-import java.util.Collections;
 
 
 /**

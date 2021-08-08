@@ -1,4 +1,4 @@
-package com.wissassblog.sudoku.userinterface;
+package com.maria.sudoku.userinterface;
 
 import javafx.scene.control.TextField;
 import javafx.scene.control.TextFormatter;
